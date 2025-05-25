@@ -11,12 +11,13 @@ class Course {
 }
 class Student {
     String name = "Ravi";
-    String program = "BCA";
-    int semester = 4;
+    String program = "msc";
+    int semester = 5;
     Course[] courses = {
         new Course("Math", 35,01),
         new Course("Java", 75,02),
-        new Course("English", 30,03)
+        new Course("English", 30,03),
+        new Course("Kannada", 30,03),
     };
     void displayInfo() {
         System.out.println("Student Name: " + name);
